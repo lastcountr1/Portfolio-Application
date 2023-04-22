@@ -3,4 +3,5 @@
     <string name="default_question">1 is the smallest number ?</string>
     <string name="t">True</string>
     <string name="f">False</string>
+    <string name="hi_i_am_lastcountr">Hi I am lastcountr!</string>
 </resources>

@@ -5,9 +5,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:gravity="center"
     android:background="@drawable/bg_image"
     tools:context=".MainActivity"
     >
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hi_i_am_lastcountr"
+        android:textColor="#92030C0C"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:gravity="center"
+        />
 
     <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
