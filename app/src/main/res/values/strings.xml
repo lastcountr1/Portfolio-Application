@@ -4,4 +4,6 @@
     <string name="t">True</string>
     <string name="f">False</string>
     <string name="hi_i_am_lastcountr">Hi I am lastcountr!</string>
+    <string name="welcome">Welcome</string>
+    <string name="to_my_portfolio">to my portfolio</string>
 </resources>

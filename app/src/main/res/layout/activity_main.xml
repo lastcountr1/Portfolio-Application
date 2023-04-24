@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center"
     android:background="@drawable/bg_image"
     tools:context=".MainActivity"
     >
@@ -15,8 +14,9 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
         android:text="@string/hi_i_am_lastcountr"
-        android:textColor="#92030C0C"
+        android:textColor="#44ECD9"
         android:textStyle="bold"
         android:textSize="40sp"
         android:gravity="center"
@@ -25,7 +25,10 @@
     <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:cardBackgroundColor="#BE127F88"
+        app:cardBackgroundColor="#00127F88"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="130dp"
         app:cardElevation="10dp">
 
         <LinearLayout
@@ -36,14 +39,20 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                tools:text="Welcome"
+                android:text="@string/welcome"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor= "#B7FFFF"
                 android:gravity="center"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                tools:text="Welcome"
-                android:gravity="center"/>
+                android:text="@string/to_my_portfolio"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:gravity="center"
+                android:textColor= "#B7FFFF"/>
 
         </LinearLayout>
 
